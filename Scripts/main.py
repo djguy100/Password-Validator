@@ -35,7 +35,6 @@ class PasswordValidater:
         self.window.iconphoto(True, tk.PhotoImage(file=resource_path("Assets/icon.png")))
 
         self.model: Model = Model.load()
-        self.window.deiconify()
         self.instructions_details()
 
     def instructions_details(self) -> None:
