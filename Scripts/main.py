@@ -21,7 +21,7 @@ def resource_path(relative_path: str) -> str:
 
     return os.path.join(base_path, relative_path)
 
-class PasswordValidater:
+class PasswordValidator:
     """
     The main app
     """
@@ -97,7 +97,7 @@ def main() -> None:
     This runs the app
     :return: This doesn't return anything
     """
-    pv: PasswordValidater = PasswordValidater()
+    pv: PasswordValidator = PasswordValidator()
     pv.run()
 
 
